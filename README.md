@@ -80,16 +80,17 @@ receipt-fraud-detection/
 │── requirements.txt
 ```
 🔮 Roadmap
+
  FastAPI backend setup
 
  Basic OCR pipeline
- 
+
  Handwriting detection model
- 
+
  Digital tampering detection
- 
+
  Fraud risk scoring
- 
+
  API integration with expense systems
- 
+
  Deployment with Kubernetes
