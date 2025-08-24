@@ -32,9 +32,10 @@ It uses **FastAPI** for the backend and integrates OCR + ML models for fraud det
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/receipt-fraud-detection.git
+git clone https://github.com/salehhamdy/receipt-fraud-detection.git
 cd receipt-fraud-detection
 ```
+
 
 2. Create environment
 Using Conda:
