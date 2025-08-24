@@ -77,7 +77,7 @@ receipt-fraud-detection/
 │── docker/                  # Docker setup (optional)
 │── k8s/                     # Kubernetes configs (optional)
 │── README.md
-│── requirements.txt
+└──  requirements.txt
 ```
 🔮 Roadmap
 
