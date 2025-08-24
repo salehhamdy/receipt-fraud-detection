@@ -34,24 +34,22 @@ It uses **FastAPI** for the backend and integrates OCR + ML models for fraud det
 ```bash
 git clone https://github.com/your-username/receipt-fraud-detection.git
 cd receipt-fraud-detection
+```
+
 2. Create environment
 Using Conda:
-
-bash
-Copy
-Edit
+```bash
 conda create -n receipt-fraud python=3.9 -y
 conda activate receipt-fraud
-Install dependencies:
+```
 
-bash
-Copy
-Edit
+Install dependencies:
+```bash
 pip install -r requirements.txt
+```
+
 3. Run the API
-bash
-Copy
-Edit
+```bash
 python -m uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
 📡 API Endpoints
 GET / → Health check
@@ -67,13 +65,11 @@ Interactive API docs available at:
 Swagger UI
 
 ReDoc
-
+```
 🛠️ Development
 Folder structure:
 
-bash
-Copy
-Edit
+```bash
 receipt-fraud-detection/
 │── src/
 │   ├── main.py              # FastAPI entrypoint
@@ -87,17 +83,12 @@ receipt-fraud-detection/
 │── k8s/                     # Kubernetes configs (optional)
 │── README.md
 │── requirements.txt
+```
 🔮 Roadmap
  FastAPI backend setup
-
  Basic OCR pipeline
-
  Handwriting detection model
-
  Digital tampering detection
-
  Fraud risk scoring
-
  API integration with expense systems
-
  Deployment with Kubernetes
