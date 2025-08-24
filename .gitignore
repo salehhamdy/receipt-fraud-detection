@@ -1,0 +1,64 @@
+# Gitignore # Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Conda & Virtual envs
+env/
+venv/
+.venv/
+*.conda
+*.egg-info/
+
+# Jupyter & notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Logs & debug
+*.log
+logs/
+debug.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Build & dist
+build/
+dist/
+*.egg
+.eggs/
+
+# Models & datasets
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.tflite
+data/
+datasets/
+
+# Images / temp files
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+*.pdf
+*.tmp
+
+# Docker / Kubernetes
+docker/*.pid
+docker/*.log
+k8s/*.log
+
+# OS generated
+.DS_Store
+Thumbs.db
+

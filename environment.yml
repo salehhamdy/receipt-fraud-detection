@@ -8,7 +8,6 @@ dependencies:
       - opencv-python
       - pillow
       - pytesseract
-      - tensorflow
       - scikit-learn
       - numpy
       - pandas

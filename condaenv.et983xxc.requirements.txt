@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+opencv-python
+pillow
+pytesseract
+scikit-learn
+numpy
+pandas
