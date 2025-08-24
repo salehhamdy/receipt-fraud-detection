@@ -60,11 +60,6 @@ POST /receipts/analyze → Run fraud detection (planned)
 
 GET /results/{id} → Retrieve analysis results (planned)
 
-Interactive API docs available at:
-
-Swagger UI
-
-ReDoc
 ```
 🛠️ Development
 Folder structure:
